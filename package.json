@@ -1,7 +1,7 @@
 {
-  "name": "tns-platform-declarations",
-  "version": "4.0.0",
-  "description": "Platform-specific TypeScript declarations for NativeScript for accessing native objects",
+  "name": "nativescript-ios-declarations",
+  "version": "4.0.01",
+  "description": "iOS TypeScript declarations for NativeScript for accessing native objects",
   "main": "",
   "scripts": {
     "test": "tsc",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/NativeScript/NativeScript.git"
+    "url": "git+ssh://git@github.com/ArduinoMinas/nativescript-ios-declarations.git"
   },
   "keywords": [
     "NativeScript",
@@ -26,11 +26,18 @@
     "email": "support@telerik.com",
     "url": "http://www.telerik.com"
   },
+  "contributors": [
+    {
+      "name": "Carlos Delfino - Arduino Minas",
+      "email": "consultoria@carlosdelfino.eti.br",
+      "url": "http://carlosdelfino.eti.br"
+    }
+  ],
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/NativeScript/NativeScript/issues"
+    "url": "https://github.com/ArduinoMinas/nativescript-ios-declarations/issues"
   },
-  "homepage": "https://github.com/NativeScript/NativeScript#readme",
+  "homepage": "https://github.com/ArduinoMinas/nativescript-ios-declarations#readme",
   "devDependencies": {
     "typescript": "^2.6.1"
   }
