@@ -1,5 +1,23 @@
 {
-    "extends": "../tsconfig.shared",
+    "compilerOptions": {
+        "noEmitOnError": false,
+        "noEmitHelpers": true,
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "noImplicitUseStrict": true,
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "diagnostics": true,
+        "sourceMap": true,
+        "jsx": "react",
+        "reactNamespace": "UIBuilder",
+        "lib": [
+            "es6",
+            "dom"
+        ]
+    },
     "exclude": [
         "ios/objc-x86_64",
         "node_modules",
